@@ -1,2 +1,59 @@
+body, html {
+    height: 100%;
+  }
+h1 {
+  color:white;
+  font-size:40px;
+  font-style: bold;
 
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+}
+h2{
+  color:#006600;
+}
+img{
+  width: 400px;
+  margin-right: 500px;
+  margin-left: 500px;
+  padding: 500 px;
+}
+header{
+  background-color: white;
+  background-image:
+
+}
+.ingress {
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+}
+.header {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos nature/jon-flobrant-34820-unsplash.jpg");
+  height: 65%;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.button {
+  background-color:rgba(167,76,233,0.8);
+  color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+}
