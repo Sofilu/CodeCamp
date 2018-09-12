@@ -21,25 +21,21 @@ body, html {
     background-color: rgba(167,76,233,0.8);
     color: white;
 }
+.font-family{: 'Raleway', sans-serif;
+}
+
 h1 {
   color:white;
   font-size:40px;
   font-style: bold;
+}
 
-}
 h2{
-  color:#006600;
-}
-img{
-  width: 400px;
-  /* margin-right: 500px;
-  margin-left: 500px;
-  padding: 500 px; */
+  font-size:35px;
 }
 header{
   background-color: white;
   background-image:
-
 }
 
 .centered-container {
@@ -48,8 +44,8 @@ header{
   text-align: center;
 }
 
-.pure-g img {
-  height: 440px;
+img {
+  width:100%;
 }
 
 .ingress {
@@ -91,4 +87,30 @@ header{
 .body{
   margin-left: 200px;
   margin-right: 500px:
+}
+.text-block{
+  position:absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.texten{
+  position: relative;
+}
+.texten img{
+  height: 450px;
+}
+.catch-phrase{
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+.catch-phrase img{
+  height:100%;
+}
+.verical-spacing{
+  margin-top: 10px;
 }
