@@ -99,9 +99,13 @@ img {
 }
 .texten{
   position: relative;
+  overflow: hidden;
+  height:470px;
 }
 .texten img{
-  height: 450px;
+min-height: 100%;
+min-width: 100%;
+
 }
 .catch-phrase{
   background-color: black;
@@ -113,4 +117,17 @@ img {
 }
 .verical-spacing{
   margin-top: 10px;
+}
+.locations {
+  position: relative;
+  overflow: hidden;
+  height:450px;
+}
+.locations img{
+  height: 100%;
+  min-width: 100%;
+}
+.container-wrapper{
+  background-color: lightgrey;
+  padding: 20px;
 }
