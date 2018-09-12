@@ -58,7 +58,7 @@ img {
   margin-right: 500px;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos nature/jon-flobrant-34820-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos_nature/jon-flobrant-34820-unsplash.jpg");
   height: 65%;
   background-position: center;
     background-repeat: no-repeat;
